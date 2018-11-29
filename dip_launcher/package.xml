@@ -1,0 +1,16 @@
+<package>
+  <name>dip_launcher</name>
+  <version>0.0.1</version>
+  <description>
+    Estimates position and velocity given position and velocity measurements. Super simple, baybee.
+  </description>
+  <license>MIT</license>
+  <maintainer email="jtb2013@gmail.com">James Bell</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>camera_to_inertial_conv</run_depend>
+  <run_depend>pv_estimator</run_depend>
+</package>
+
+

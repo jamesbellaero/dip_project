@@ -1,0 +1,31 @@
+<launch>
+  <!-- Name of robot -->
+  <rosparam param="robot_name"> "Orbot" </rosparam>
+
+  <node pkg="pixelink_ros"
+    type="pixelink_node"
+    name="pixelink_node"
+    output="screen">
+  </node>
+
+  <node pkg="ball_tracker"
+    type="ball_tracking.py"
+    name="ball_tracking.py"
+    output="screen">
+  </node>
+  
+  <node pkg="pv_estimator"
+    type="estimator_node"
+    name="estimator_node"
+    output="screen">
+  </node>
+
+  <node pkg="camera_to_inertial_conv"
+    type="camera_to_inertial_conv"
+    name="camera_to_inertial_conv"
+    output="screen">
+  </node>
+
+  
+  
+</launch>
