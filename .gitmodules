@@ -1,0 +1,9 @@
+[submodule "pv_estimator"]
+	path = pv_estimator
+	url = https://github.com/nearlab/pv_estimator
+[submodule "camera_to_inertial_conv"]
+	path = camera_to_inertial_conv
+	url = https://github.com/nearlab/camera_to_inertial_conv
+[submodule "ball_tracker"]
+	path = ball_tracker
+	url = https://github.com/nearlab/ball_tracker
